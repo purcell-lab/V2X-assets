@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 290" width="860" height="290" role="img" aria-labelledby="t d">
+<title id="t">G · Current-interval load forecast is about a third of measured</title><desc id="d">Horizontal bars: the plan forecasts 4.2 kW of load; the pilot's own home power reads 14.2 and 9.97 kW and the plant-measured load is about 12 kW.</desc>
+
+<style>
+  .bg{fill:#fcfcfb}
+  .t1{fill:#0b0b0b;font:600 15px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .t2{fill:#52514e;font:12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .tl{fill:#0b0b0b;font:600 12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .ax{fill:#52514e;font:11px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .grid{stroke:#e4e3df;stroke-width:1}
+  .zero{stroke:#8f8e88;stroke-width:1}
+  .s1{fill:#2a78d6}.s1l{stroke:#2a78d6}
+  .s2{fill:#eb6834}.s2l{stroke:#eb6834}
+  .s3{fill:#1baf7a}.s3l{stroke:#1baf7a}
+  .crit{fill:#d03b3b}.critl{stroke:#d03b3b}
+  .shade{fill:#f0efec}
+  .gap{stroke:#fcfcfb;stroke-width:2}
+  .muted{fill:#8f8e88}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19}
+    .t1,.tl{fill:#f0efec}
+    .t2,.ax{fill:#c3c2b7}
+    .grid{stroke:#383835}
+    .zero{stroke:#76756f}
+    .s1{fill:#3987e5}.s1l{stroke:#3987e5}
+    .s2{fill:#d95926}.s2l{stroke:#d95926}
+    .s3{fill:#199e70}.s3l{stroke:#199e70}
+    .shade{fill:#2a2a28}
+    .gap{stroke:#1a1a19}
+    .muted{fill:#76756f}
+  }
+</style>
+<rect class="bg" width="860" height="290" rx="6"/>
+<text class="t1" x="20" y="28">G · Current-interval load forecast is about a third of measured</text>
+<text class="t2" x="20" y="47">Current interval 09:00–09:30 AEST, 12 Oct 2026 · kW</text>
+<line class="zero" x1="250.0" y1="70" x2="250.0" y2="244"/>
+<text class="ax" x="250.0" y="260.0" text-anchor="middle" >0 kW</text>
+<line class="grid" x1="380.0" y1="70" x2="380.0" y2="244"/>
+<text class="ax" x="380.0" y="260.0" text-anchor="middle" >4 kW</text>
+<line class="grid" x1="510.0" y1="70" x2="510.0" y2="244"/>
+<text class="ax" x="510.0" y="260.0" text-anchor="middle" >8 kW</text>
+<line class="grid" x1="640.0" y1="70" x2="640.0" y2="244"/>
+<text class="ax" x="640.0" y="260.0" text-anchor="middle" >12 kW</text>
+<line class="grid" x1="770.0" y1="70" x2="770.0" y2="244"/>
+<text class="ax" x="770.0" y="260.0" text-anchor="middle" >16 kW</text>
+<rect class="s1" x="250.0" y="76.0" width="136.5" height="24" rx="3"/>
+<text class="tl" x="240.0" y="92.0" text-anchor="end" >plan consumptionKw</text>
+<text class="tl" x="392.5" y="92.0" text-anchor="start" >4.20 kW</text>
+<rect class="s2" x="250.0" y="118.0" width="461.5" height="24" rx="3"/>
+<text class="tl" x="240.0" y="134.0" text-anchor="end" >pilot home_power 08:54</text>
+<text class="tl" x="717.5" y="134.0" text-anchor="start" >14.20 kW</text>
+<rect class="s2" x="250.0" y="160.0" width="324.0" height="24" rx="3"/>
+<text class="tl" x="240.0" y="176.0" text-anchor="end" >pilot home_power 09:09</text>
+<text class="tl" x="580.0" y="176.0" text-anchor="start" >9.97 kW</text>
+<rect class="s3" x="250.0" y="202.0" width="390.0" height="24" rx="3"/>
+<text class="tl" x="240.0" y="218.0" text-anchor="end" >measured (PV + grid − BESS) 09:10</text>
+<text class="tl" x="646.0" y="218.0" text-anchor="start" >12.00 kW</text>
+</svg>

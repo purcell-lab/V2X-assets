@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" width="860" height="560" role="img" aria-labelledby="t d">
+<title id="t">Plan health check: the 09:06 plan at a glance</title><desc id="d">Two panels. Top: planned EV and home battery power per interval. Bottom: the plan's EV SoC trace against the 20% target.</desc>
+
+<style>
+  .bg{fill:#fcfcfb}
+  .t1{fill:#0b0b0b;font:600 15px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .t2{fill:#52514e;font:12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .tl{fill:#0b0b0b;font:600 12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .ax{fill:#52514e;font:11px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .grid{stroke:#e4e3df;stroke-width:1}
+  .zero{stroke:#8f8e88;stroke-width:1}
+  .s1{fill:#2a78d6}.s1l{stroke:#2a78d6}
+  .s2{fill:#eb6834}.s2l{stroke:#eb6834}
+  .s3{fill:#1baf7a}.s3l{stroke:#1baf7a}
+  .crit{fill:#d03b3b}.critl{stroke:#d03b3b}
+  .shade{fill:#f0efec}
+  .gap{stroke:#fcfcfb;stroke-width:2}
+  .muted{fill:#8f8e88}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19}
+    .t1,.tl{fill:#f0efec}
+    .t2,.ax{fill:#c3c2b7}
+    .grid{stroke:#383835}
+    .zero{stroke:#76756f}
+    .s1{fill:#3987e5}.s1l{stroke:#3987e5}
+    .s2{fill:#d95926}.s2l{stroke:#d95926}
+    .s3{fill:#199e70}.s3l{stroke:#199e70}
+    .shade{fill:#2a2a28}
+    .gap{stroke:#1a1a19}
+    .muted{fill:#76756f}
+  }
+</style>
+<rect class="bg" width="860" height="560" rx="6"/>
+<text class="t1" x="20" y="28">Plan health check: the 09:06 plan at a glance</text>
+<text class="t2" x="20" y="47">Amber V2X plan published 12 Oct 2026 09:06 AEST · 30-min intervals, AEST start · positive = charge / import</text>
+<line class="grid" x1="64" y1="317.0" x2="834" y2="317.0"/>
+<text class="ax" x="58.0" y="321.0" text-anchor="end" >-20</text>
+<line class="grid" x1="64" y1="267.0" x2="834" y2="267.0"/>
+<text class="ax" x="58.0" y="271.0" text-anchor="end" >-10</text>
+<line class="zero" x1="64" y1="217.0" x2="834" y2="217.0"/>
+<text class="ax" x="58.0" y="221.0" text-anchor="end" >0</text>
+<line class="grid" x1="64" y1="167.0" x2="834" y2="167.0"/>
+<text class="ax" x="58.0" y="171.0" text-anchor="end" >10</text>
+<line class="grid" x1="64" y1="117.0" x2="834" y2="117.0"/>
+<text class="ax" x="58.0" y="121.0" text-anchor="end" >20</text>
+<text class="ax" x="58.0" y="84.0" text-anchor="end" >kW</text>
+<rect class="shade" x="64.0" y="92" width="770.0" height="250"/>
+<text class="tl" x="826.0" y="287.0" text-anchor="end" >Shaded: DC pile Idle, vehicle unplugged 08:14:50,</text>
+<text class="tl" x="826.0" y="303.0" text-anchor="end" >for the whole horizon</text>
+<rect class="s1" x="66.6" y="176.8" width="7.3" height="40.2" rx="2.0"/>
+<rect class="s2" x="74.3" y="176.8" width="7.3" height="40.2" rx="2.0"/>
+<rect class="s1" x="86.9" y="209.6" width="7.3" height="7.4" rx="2.0"/>
+<rect class="s2" x="94.6" y="200.9" width="7.3" height="16.1" rx="2.0"/>
+<rect class="s1" x="107.2" y="212.3" width="7.3" height="4.7" rx="2.0"/>
+<rect class="s2" x="114.9" y="189.1" width="7.3" height="27.9" rx="2.0"/>
+<rect class="s1" x="127.4" y="183.5" width="7.3" height="33.5" rx="2.0"/>
+<rect class="s2" x="135.1" y="183.5" width="7.3" height="33.5" rx="2.0"/>
+<rect class="s1" x="147.7" y="149.9" width="7.3" height="67.1" rx="2.0"/>
+<rect class="s2" x="155.4" y="135.8" width="7.3" height="81.2" rx="2.0"/>
+<rect class="s1" x="168.0" y="112.0" width="7.3" height="105.0" rx="2.0"/>
+<rect class="s2" x="175.7" y="132.6" width="7.3" height="84.4" rx="2.0"/>
+<rect class="s1" x="188.2" y="187.9" width="7.3" height="29.1" rx="2.0"/>
+<rect class="s2" x="195.9" y="182.0" width="7.3" height="35.0" rx="2.0"/>
+<rect class="s1" x="208.5" y="200.4" width="7.3" height="16.6" rx="2.0"/>
+<rect class="s2" x="216.2" y="198.0" width="7.3" height="19.0" rx="2.0"/>
+<rect class="s1" x="228.7" y="209.2" width="7.3" height="7.8" rx="2.0"/>
+<rect class="s2" x="236.4" y="212.9" width="7.3" height="4.1" rx="2.0"/>
+<rect class="s1" x="249.0" y="202.6" width="7.3" height="14.4" rx="2.0"/>
+<rect class="s2" x="256.7" y="194.5" width="7.3" height="22.5" rx="2.0"/>
+<rect class="s1" x="269.3" y="197.7" width="7.3" height="19.3" rx="2.0"/>
+<rect class="s2" x="277.0" y="205.1" width="7.3" height="11.9" rx="2.0"/>
+<rect class="s1" x="289.5" y="206.4" width="7.3" height="10.6" rx="2.0"/>
+<rect class="s2" x="358.0" y="214.6" width="7.3" height="2.4" rx="1.2"/>
+<rect class="s1" x="370.6" y="217.0" width="7.3" height="1.0" rx="0.5"/>
+<rect class="s2" x="378.3" y="217.0" width="7.3" height="1.2" rx="0.6"/>
+<rect class="s1" x="390.8" y="217.0" width="7.3" height="3.5" rx="1.8"/>
+<rect class="s2" x="398.5" y="217.0" width="7.3" height="10.3" rx="2.0"/>
+<rect class="s1" x="411.1" y="217.0" width="7.3" height="110.4" rx="2.0"/>
+<rect class="s2" x="418.8" y="217.0" width="7.3" height="30.8" rx="2.0"/>
+<rect class="s1" x="431.4" y="217.0" width="7.3" height="110.4" rx="2.0"/>
+<rect class="s2" x="439.1" y="217.0" width="7.3" height="7.1" rx="2.0"/>
+<rect class="s1" x="451.6" y="217.0" width="7.3" height="110.4" rx="2.0"/>
+<rect class="s2" x="459.3" y="217.0" width="7.3" height="32.4" rx="2.0"/>
+<rect class="s1" x="471.9" y="217.0" width="7.3" height="7.6" rx="2.0"/>
+<rect class="s2" x="479.6" y="217.0" width="7.3" height="14.9" rx="2.0"/>
+<rect class="s1" x="492.2" y="217.0" width="7.3" height="7.8" rx="2.0"/>
+<rect class="s2" x="499.9" y="217.0" width="7.3" height="16.4" rx="2.0"/>
+<rect class="s1" x="512.4" y="217.0" width="7.3" height="6.0" rx="2.0"/>
+<rect class="s1" x="532.7" y="217.0" width="7.3" height="9.9" rx="2.0"/>
+<rect class="s2" x="540.4" y="217.0" width="7.3" height="3.4" rx="1.7"/>
+<rect class="s2" x="560.7" y="217.0" width="7.3" height="7.2" rx="2.0"/>
+<rect class="s2" x="580.9" y="217.0" width="7.3" height="46.7" rx="2.0"/>
+<rect class="s2" x="601.2" y="217.0" width="7.3" height="15.4" rx="2.0"/>
+<rect class="s2" x="621.4" y="217.0" width="7.3" height="8.2" rx="2.0"/>
+<rect class="s2" x="641.7" y="217.0" width="7.3" height="0.6" rx="0.3"/>
+<rect class="s2" x="803.8" y="217.0" width="7.3" height="0.6" rx="0.3"/>
+<rect class="s1" x="816.4" y="217.0" width="7.3" height="3.8" rx="1.9"/>
+<rect class="s1" x="470" y="63" width="12" height="10" rx="2"/>
+<text class="t2" x="488.0" y="72.0" text-anchor="start" >EV (vehicleKw)</text>
+<rect class="s2" x="594" y="63" width="12" height="10" rx="2"/>
+<text class="t2" x="612.0" y="72.0" text-anchor="start" >Home battery (batteryKw)</text>
+<text class="tl" x="203.8" y="117.0" text-anchor="start" >+21 kW EV charge</text>
+<text class="tl" x="471.3" y="307.0" text-anchor="start" >−22 kW V2G ×3</text>
+<line class="zero" x1="64" y1="512.0" x2="834" y2="512.0"/>
+<text class="ax" x="58.0" y="516.0" text-anchor="end" >0</text>
+<line class="grid" x1="64" y1="452.0" x2="834" y2="452.0"/>
+<text class="ax" x="58.0" y="456.0" text-anchor="end" >50</text>
+<line class="grid" x1="64" y1="392.0" x2="834" y2="392.0"/>
+<text class="ax" x="58.0" y="396.0" text-anchor="end" >100</text>
+<text class="ax" x="58.0" y="384.0" text-anchor="end" >%</text>
+<line class="critl" x1="64" y1="488.0" x2="834" y2="488.0" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text class="tl" x="830.0" y="483.0" text-anchor="end" >EV target 20 %</text>
+<polyline class="s1l" fill="none" stroke-width="2" stroke-linejoin="round" points="74.1,478.4 94.4,476.4 114.7,475.1 134.9,465.9 155.2,447.5 175.4,418.8 195.7,410.8 216.0,406.3 236.2,404.1 256.5,400.2 276.8,394.9 297.0,392.0 317.3,392.0 337.6,392.0 357.8,392.0 378.1,392.3 398.3,393.5 418.6,429.2 438.9,464.9 459.1,500.6 479.4,503.1 499.7,505.7 519.9,507.6 540.2,510.8 560.4,510.8 580.7,510.8 601.0,510.8 621.2,510.8 641.5,510.8 661.8,510.8 682.0,510.8 702.3,510.8 722.6,510.8 742.8,510.8 763.1,510.8 783.3,510.8 803.6,510.8 823.9,512.0"/>
+<circle class="s1 gap" cx="823.9" cy="512.0" r="4.5"/>
+<text class="tl" x="815.9" y="504.0" text-anchor="end" >0 %</text>
+<text class="ax" x="74.1" y="528.0" text-anchor="middle" >09:00</text>
+<text class="ax" x="155.2" y="528.0" text-anchor="middle" >11:00</text>
+<text class="ax" x="236.2" y="528.0" text-anchor="middle" >13:00</text>
+<text class="ax" x="317.3" y="528.0" text-anchor="middle" >15:00</text>
+<text class="ax" x="398.3" y="528.0" text-anchor="middle" >17:00</text>
+<text class="ax" x="479.4" y="528.0" text-anchor="middle" >19:00</text>
+<text class="ax" x="560.4" y="528.0" text-anchor="middle" >21:00</text>
+<text class="ax" x="641.5" y="528.0" text-anchor="middle" >23:00</text>
+<text class="ax" x="722.6" y="528.0" text-anchor="middle" >01:00</text>
+<text class="ax" x="803.6" y="528.0" text-anchor="middle" >03:00</text>
+</svg>

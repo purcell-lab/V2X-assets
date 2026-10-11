@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 380" width="860" height="380" role="img" aria-labelledby="t d">
+<title id="t">B · 72 kWh of EV dispatch planned against an empty DC pile</title><desc id="d">Planned EV power per interval, against measured DC pile output of zero with the pile Idle after the vehicle was unplugged at 08:14:50.</desc>
+
+<style>
+  .bg{fill:#fcfcfb}
+  .t1{fill:#0b0b0b;font:600 15px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .t2{fill:#52514e;font:12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .tl{fill:#0b0b0b;font:600 12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .ax{fill:#52514e;font:11px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .grid{stroke:#e4e3df;stroke-width:1}
+  .zero{stroke:#8f8e88;stroke-width:1}
+  .s1{fill:#2a78d6}.s1l{stroke:#2a78d6}
+  .s2{fill:#eb6834}.s2l{stroke:#eb6834}
+  .s3{fill:#1baf7a}.s3l{stroke:#1baf7a}
+  .crit{fill:#d03b3b}.critl{stroke:#d03b3b}
+  .shade{fill:#f0efec}
+  .gap{stroke:#fcfcfb;stroke-width:2}
+  .muted{fill:#8f8e88}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19}
+    .t1,.tl{fill:#f0efec}
+    .t2,.ax{fill:#c3c2b7}
+    .grid{stroke:#383835}
+    .zero{stroke:#76756f}
+    .s1{fill:#3987e5}.s1l{stroke:#3987e5}
+    .s2{fill:#d95926}.s2l{stroke:#d95926}
+    .s3{fill:#199e70}.s3l{stroke:#199e70}
+    .shade{fill:#2a2a28}
+    .gap{stroke:#1a1a19}
+    .muted{fill:#76756f}
+  }
+</style>
+<rect class="bg" width="860" height="380" rx="6"/>
+<text class="t1" x="20" y="28">B · 72 kWh of EV dispatch planned against an empty DC pile</text>
+<text class="t2" x="20" y="47">Amber V2X plan published 12 Oct 2026 09:06 AEST · 30-min intervals, AEST start · positive = charge / import</text>
+<line class="grid" x1="64" y1="296.0" x2="834" y2="296.0"/>
+<text class="ax" x="58.0" y="300.0" text-anchor="end" >-20</text>
+<line class="grid" x1="64" y1="248.0" x2="834" y2="248.0"/>
+<text class="ax" x="58.0" y="252.0" text-anchor="end" >-10</text>
+<line class="zero" x1="64" y1="200.0" x2="834" y2="200.0"/>
+<text class="ax" x="58.0" y="204.0" text-anchor="end" >0</text>
+<line class="grid" x1="64" y1="152.0" x2="834" y2="152.0"/>
+<text class="ax" x="58.0" y="156.0" text-anchor="end" >10</text>
+<line class="grid" x1="64" y1="104.0" x2="834" y2="104.0"/>
+<text class="ax" x="58.0" y="108.0" text-anchor="end" >20</text>
+<text class="ax" x="58.0" y="72.0" text-anchor="end" >kW</text>
+<rect class="shade" x="64.0" y="80" width="770.0" height="240"/>
+<rect class="s1" x="67.9" y="161.4" width="12.6" height="38.6" rx="2.0"/>
+<rect class="s1" x="88.1" y="192.9" width="12.6" height="7.1" rx="2.0"/>
+<rect class="s1" x="108.4" y="195.5" width="12.6" height="4.5" rx="2.0"/>
+<rect class="s1" x="128.6" y="167.9" width="12.6" height="32.1" rx="2.0"/>
+<rect class="s1" x="148.9" y="135.6" width="12.6" height="64.4" rx="2.0"/>
+<rect class="s1" x="169.2" y="99.2" width="12.6" height="100.8" rx="2.0"/>
+<rect class="s1" x="189.4" y="172.0" width="12.6" height="28.0" rx="2.0"/>
+<rect class="s1" x="209.7" y="184.1" width="12.6" height="15.9" rx="2.0"/>
+<rect class="s1" x="230.0" y="192.5" width="12.6" height="7.5" rx="2.0"/>
+<rect class="s1" x="250.2" y="186.2" width="12.6" height="13.8" rx="2.0"/>
+<rect class="s1" x="270.5" y="181.5" width="12.6" height="18.5" rx="2.0"/>
+<rect class="s1" x="290.7" y="189.8" width="12.6" height="10.2" rx="2.0"/>
+<rect class="s1" x="371.8" y="200.0" width="12.6" height="0.9" rx="0.5"/>
+<rect class="s1" x="392.1" y="200.0" width="12.6" height="3.4" rx="1.7"/>
+<rect class="s1" x="412.3" y="200.0" width="12.6" height="106.0" rx="2.0"/>
+<rect class="s1" x="432.6" y="200.0" width="12.6" height="106.0" rx="2.0"/>
+<rect class="s1" x="452.9" y="200.0" width="12.6" height="106.0" rx="2.0"/>
+<rect class="s1" x="473.1" y="200.0" width="12.6" height="7.3" rx="2.0"/>
+<rect class="s1" x="493.4" y="200.0" width="12.6" height="7.5" rx="2.0"/>
+<rect class="s1" x="513.6" y="200.0" width="12.6" height="5.8" rx="2.0"/>
+<rect class="s1" x="533.9" y="200.0" width="12.6" height="9.5" rx="2.0"/>
+<rect class="s1" x="817.6" y="200.0" width="12.6" height="3.6" rx="1.8"/>
+<polyline class="critl" fill="none" stroke-width="2.5" stroke-linejoin="round" points="74.1,200.0 94.4,200.0 114.7,200.0 134.9,200.0 155.2,200.0 175.4,200.0 195.7,200.0 216.0,200.0 236.2,200.0 256.5,200.0 276.8,200.0 297.0,200.0 317.3,200.0 337.6,200.0 357.8,200.0 378.1,200.0 398.3,200.0 418.6,200.0 438.9,200.0 459.1,200.0 479.4,200.0 499.7,200.0 519.9,200.0 540.2,200.0 560.4,200.0 580.7,200.0 601.0,200.0 621.2,200.0 641.5,200.0 661.8,200.0 682.0,200.0 702.3,200.0 722.6,200.0 742.8,200.0 763.1,200.0 783.3,200.0 803.6,200.0 823.9,200.0"/>
+<text class="tl" x="826.0" y="267.2" text-anchor="end" >Shaded: DC pile Idle since 08:14:50, measured 0 kW.</text>
+<text class="tl" x="826.0" y="283.2" text-anchor="end" >The car is on the AC charger at 24 %.</text>
+<text class="tl" x="187.6" y="104.0" text-anchor="start" >+34.7 kWh charge</text>
+<text class="tl" x="471.3" y="286.4" text-anchor="start" >−37.1 kWh V2G / V2H</text>
+<rect class="s1" x="64" y="343" width="12" height="10" rx="2"/>
+<text class="t2" x="82.0" y="352.0" text-anchor="start" >EV planned (vehicleKw)</text>
+<line class="critl" x1="244" y1="348" x2="258" y2="348" stroke-width="2"/>
+<text class="t2" x="262.0" y="352.0" text-anchor="start" >DC pile measured (0 kW, Idle)</text>
+<text class="ax" x="74.1" y="336.0" text-anchor="middle" >09:00</text>
+<text class="ax" x="155.2" y="336.0" text-anchor="middle" >11:00</text>
+<text class="ax" x="236.2" y="336.0" text-anchor="middle" >13:00</text>
+<text class="ax" x="317.3" y="336.0" text-anchor="middle" >15:00</text>
+<text class="ax" x="398.3" y="336.0" text-anchor="middle" >17:00</text>
+<text class="ax" x="479.4" y="336.0" text-anchor="middle" >19:00</text>
+<text class="ax" x="560.4" y="336.0" text-anchor="middle" >21:00</text>
+<text class="ax" x="641.5" y="336.0" text-anchor="middle" >23:00</text>
+<text class="ax" x="722.6" y="336.0" text-anchor="middle" >01:00</text>
+<text class="ax" x="803.6" y="336.0" text-anchor="middle" >03:00</text>
+</svg>

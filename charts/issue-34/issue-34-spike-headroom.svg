@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" width="860" height="420" role="img" aria-labelledby="t d">
+<title id="t">D · Export headroom left unused through the price peak</title><desc id="d">Stacked bars of planned EV export, home battery export and unused headroom to 30 kW, with Amber Express feed-in price per interval as labels.</desc>
+
+<style>
+  .bg{fill:#fcfcfb}
+  .t1{fill:#0b0b0b;font:600 15px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .t2{fill:#52514e;font:12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .tl{fill:#0b0b0b;font:600 12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .ax{fill:#52514e;font:11px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .grid{stroke:#e4e3df;stroke-width:1}
+  .zero{stroke:#8f8e88;stroke-width:1}
+  .s1{fill:#2a78d6}.s1l{stroke:#2a78d6}
+  .s2{fill:#eb6834}.s2l{stroke:#eb6834}
+  .s3{fill:#1baf7a}.s3l{stroke:#1baf7a}
+  .crit{fill:#d03b3b}.critl{stroke:#d03b3b}
+  .shade{fill:#f0efec}
+  .gap{stroke:#fcfcfb;stroke-width:2}
+  .muted{fill:#8f8e88}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19}
+    .t1,.tl{fill:#f0efec}
+    .t2,.ax{fill:#c3c2b7}
+    .grid{stroke:#383835}
+    .zero{stroke:#76756f}
+    .s1{fill:#3987e5}.s1l{stroke:#3987e5}
+    .s2{fill:#d95926}.s2l{stroke:#d95926}
+    .s3{fill:#199e70}.s3l{stroke:#199e70}
+    .shade{fill:#2a2a28}
+    .gap{stroke:#1a1a19}
+    .muted{fill:#76756f}
+  }
+</style>
+<rect class="bg" width="860" height="420" rx="6"/>
+<text class="t1" x="20" y="28">D · Export headroom left unused through the price peak</text>
+<text class="t2" x="20" y="47">09:06 plan · export per interval (BESS counted, see A) against the 30 kW envelope · feed-in from Amber Express</text>
+<line class="zero" x1="64" y1="330.0" x2="564" y2="330.0"/>
+<text class="ax" x="58.0" y="334.0" text-anchor="end" >0</text>
+<line class="grid" x1="64" y1="251.9" x2="564" y2="251.9"/>
+<text class="ax" x="58.0" y="255.9" text-anchor="end" >10</text>
+<line class="grid" x1="64" y1="173.8" x2="564" y2="173.8"/>
+<text class="ax" x="58.0" y="177.8" text-anchor="end" >20</text>
+<line class="grid" x1="64" y1="95.6" x2="564" y2="95.6"/>
+<text class="ax" x="58.0" y="99.6" text-anchor="end" >30</text>
+<text class="ax" x="58.0" y="72.0" text-anchor="end" >export kW</text>
+<line class="critl" x1="64" y1="95.6" x2="564" y2="95.6" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text class="tl" x="560.0" y="90.6" text-anchor="end" >30 kW envelope</text>
+<rect class="s1" x="86.5" y="178.2" width="55.0" height="151.8" rx="2.0"/>
+<rect class="s2" x="86.5" y="130.1" width="55.0" height="48.1" rx="2.0"/>
+<rect x="86.5" y="95.6" width="55.0" height="34.5" rx="2" fill="none" class="critl" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text class="tl" x="114.0" y="126.9" text-anchor="middle" >4.4 kW</text>
+<text class="ax" x="114.0" y="346.0" text-anchor="middle" >17:30</text>
+<text class="tl" x="114.0" y="362.0" text-anchor="middle" >51 c</text>
+<rect class="s1" x="186.5" y="178.8" width="55.0" height="151.2" rx="2.0"/>
+<rect class="s2" x="186.5" y="167.6" width="55.0" height="11.1" rx="2.0"/>
+<rect x="186.5" y="95.6" width="55.0" height="72.0" rx="2" fill="none" class="critl" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text class="tl" x="214.0" y="145.6" text-anchor="middle" >9.2 kW</text>
+<text class="ax" x="214.0" y="346.0" text-anchor="middle" >18:00</text>
+<text class="tl" x="214.0" y="362.0" text-anchor="middle" >91 c</text>
+<rect class="s1" x="286.5" y="180.5" width="55.0" height="149.5" rx="2.0"/>
+<rect class="s2" x="286.5" y="130.0" width="55.0" height="50.6" rx="2.0"/>
+<rect x="286.5" y="95.6" width="55.0" height="34.3" rx="2" fill="none" class="critl" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text class="tl" x="314.0" y="126.8" text-anchor="middle" >4.4 kW</text>
+<text class="ax" x="314.0" y="346.0" text-anchor="middle" >18:30</text>
+<text class="tl" x="314.0" y="362.0" text-anchor="middle" >90 c</text>
+<rect class="s2" x="386.5" y="306.7" width="55.0" height="23.3" rx="2.0"/>
+<rect x="386.5" y="95.6" width="55.0" height="211.1" rx="2" fill="none" class="critl" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text class="tl" x="414.0" y="215.2" text-anchor="middle" >27.0 kW</text>
+<text class="ax" x="414.0" y="346.0" text-anchor="middle" >19:00</text>
+<text class="tl" x="414.0" y="362.0" text-anchor="middle" >37 c</text>
+<rect class="s2" x="486.5" y="304.4" width="55.0" height="25.6" rx="2.0"/>
+<rect x="486.5" y="95.6" width="55.0" height="208.8" rx="2" fill="none" class="critl" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text class="tl" x="514.0" y="214.0" text-anchor="middle" >26.7 kW</text>
+<text class="ax" x="514.0" y="346.0" text-anchor="middle" >19:30</text>
+<text class="tl" x="514.0" y="362.0" text-anchor="middle" >19 c</text>
+<text class="ax" x="58.0" y="362.0" text-anchor="end" >feed-in</text>
+<rect class="s1" x="64" y="391" width="12" height="10" rx="2"/>
+<text class="t2" x="82.0" y="400.0" text-anchor="start" >EV export</text>
+<rect class="s2" x="153" y="391" width="12" height="10" rx="2"/>
+<text class="t2" x="171.0" y="400.0" text-anchor="start" >home battery export</text>
+<line class="critl" x1="312" y1="396" x2="326" y2="396" stroke-width="2" stroke-dasharray="4 3"/>
+<text class="t2" x="330.0" y="400.0" text-anchor="start" >unused to 30 kW</text>
+<text class="tl" x="600.0" y="96.0" text-anchor="start" >Amber Express feed-in, 09:40 forecast</text>
+<text class="t2" x="600.0" y="116.0" text-anchor="start" >interval     predicted     band (low–high)</text>
+<text class="t2" x="600.0" y="138.0" text-anchor="start" >17:30</text>
+<text class="tl" x="740.0" y="138.0" text-anchor="end" >$0.81</text>
+<text class="t2" x="836.0" y="138.0" text-anchor="end" >$0.12–3.64</text>
+<text class="t2" x="600.0" y="160.0" text-anchor="start" >18:00</text>
+<text class="tl" x="740.0" y="160.0" text-anchor="end" >$1.28</text>
+<text class="t2" x="836.0" y="160.0" text-anchor="end" >$0.12–5.84</text>
+<text class="t2" x="600.0" y="182.0" text-anchor="start" >18:30</text>
+<text class="tl" x="740.0" y="182.0" text-anchor="end" >$1.51</text>
+<text class="t2" x="836.0" y="182.0" text-anchor="end" >$0.11–7.22</text>
+<text class="t2" x="600.0" y="204.0" text-anchor="start" >19:00</text>
+<text class="tl" x="740.0" y="204.0" text-anchor="end" >$1.04</text>
+<text class="t2" x="836.0" y="204.0" text-anchor="end" >$0.11–5.53</text>
+<text class="t2" x="600.0" y="226.0" text-anchor="start" >19:30</text>
+<text class="tl" x="740.0" y="226.0" text-anchor="end" >$0.38</text>
+<text class="t2" x="836.0" y="226.0" text-anchor="end" >$0.10–1.77</text>
+<text class="t2" x="600.0" y="264.0" text-anchor="start" >The 09:41 plan follows the risen feed,</text>
+<text class="t2" x="600.0" y="282.0" text-anchor="start" >but BESS stays at −1.4 to −6.5 kW.</text>
+</svg>

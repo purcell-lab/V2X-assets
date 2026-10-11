@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" width="860" height="400" role="img" aria-labelledby="t d">
+<title id="t">A · The plan's grid figure leaves out the home battery</title><desc id="d">Planned grid power per interval as published, against the grid implied once batteryKw is included, with the 30 kW import envelope.</desc>
+
+<style>
+  .bg{fill:#fcfcfb}
+  .t1{fill:#0b0b0b;font:600 15px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .t2{fill:#52514e;font:12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .tl{fill:#0b0b0b;font:600 12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .ax{fill:#52514e;font:11px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .grid{stroke:#e4e3df;stroke-width:1}
+  .zero{stroke:#8f8e88;stroke-width:1}
+  .s1{fill:#2a78d6}.s1l{stroke:#2a78d6}
+  .s2{fill:#eb6834}.s2l{stroke:#eb6834}
+  .s3{fill:#1baf7a}.s3l{stroke:#1baf7a}
+  .crit{fill:#d03b3b}.critl{stroke:#d03b3b}
+  .shade{fill:#f0efec}
+  .gap{stroke:#fcfcfb;stroke-width:2}
+  .muted{fill:#8f8e88}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19}
+    .t1,.tl{fill:#f0efec}
+    .t2,.ax{fill:#c3c2b7}
+    .grid{stroke:#383835}
+    .zero{stroke:#76756f}
+    .s1{fill:#3987e5}.s1l{stroke:#3987e5}
+    .s2{fill:#d95926}.s2l{stroke:#d95926}
+    .s3{fill:#199e70}.s3l{stroke:#199e70}
+    .shade{fill:#2a2a28}
+    .gap{stroke:#1a1a19}
+    .muted{fill:#76756f}
+  }
+</style>
+<rect class="bg" width="860" height="400" rx="6"/>
+<text class="t1" x="20" y="28">A · The plan's grid figure leaves out the home battery</text>
+<text class="t2" x="20" y="47">Amber V2X plan published 12 Oct 2026 09:06 AEST · 30-min intervals, AEST start · positive = charge / import</text>
+<line class="grid" x1="64" y1="340.0" x2="834" y2="340.0"/>
+<text class="ax" x="58.0" y="344.0" text-anchor="end" >-30</text>
+<line class="grid" x1="64" y1="300.0" x2="834" y2="300.0"/>
+<text class="ax" x="58.0" y="304.0" text-anchor="end" >-20</text>
+<line class="grid" x1="64" y1="260.0" x2="834" y2="260.0"/>
+<text class="ax" x="58.0" y="264.0" text-anchor="end" >-10</text>
+<line class="zero" x1="64" y1="220.0" x2="834" y2="220.0"/>
+<text class="ax" x="58.0" y="224.0" text-anchor="end" >0</text>
+<line class="grid" x1="64" y1="180.0" x2="834" y2="180.0"/>
+<text class="ax" x="58.0" y="184.0" text-anchor="end" >10</text>
+<line class="grid" x1="64" y1="140.0" x2="834" y2="140.0"/>
+<text class="ax" x="58.0" y="144.0" text-anchor="end" >20</text>
+<line class="grid" x1="64" y1="100.0" x2="834" y2="100.0"/>
+<text class="ax" x="58.0" y="104.0" text-anchor="end" >30</text>
+<text class="ax" x="58.0" y="72.0" text-anchor="end" >kW</text>
+<line class="critl" x1="64" y1="100.0" x2="834" y2="100.0" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text class="tl" x="830.0" y="95.0" text-anchor="end" >30 kW import envelope</text>
+<polyline class="s3l" fill="none" stroke-width="2" stroke-linejoin="round" points="74.1,220.0 94.4,220.0 114.7,220.0 134.9,220.0 155.2,189.3 175.4,162.7 195.7,220.0 216.0,220.0 236.2,220.0 256.5,220.0 276.8,220.0 297.0,220.0 317.3,221.4 337.6,222.7 357.8,221.4 378.1,220.0 398.3,220.0 418.6,297.7 438.9,297.4 459.1,296.5 479.4,220.0 499.7,220.0 519.9,220.0 540.2,220.0 560.4,214.1 580.7,211.7 601.0,209.5 621.2,211.0 641.5,215.8 661.8,214.6 682.0,213.6 702.3,214.9 722.6,214.2 742.8,214.9 763.1,215.5 783.3,214.0 803.6,216.1 823.9,218.1"/>
+<polyline class="s2l" fill="none" stroke-width="2" stroke-linejoin="round" points="74.1,187.8 94.4,207.1 114.7,197.7 134.9,193.2 155.2,124.3 175.4,95.2 195.7,192.0 216.0,204.8 236.2,216.7 256.5,202.0 276.8,210.5 297.0,219.9 317.3,221.7 337.6,222.8 357.8,219.5 378.1,221.0 398.3,228.2 418.6,322.4 438.9,303.1 459.1,322.4 479.4,231.9 499.7,233.1 519.9,220.0 540.2,222.7 560.4,219.9 580.7,249.0 601.0,221.8 621.2,217.6 641.5,216.3 661.8,214.6 682.0,213.6 702.3,214.9 722.6,214.2 742.8,214.9 763.1,215.5 783.3,214.0 803.6,216.6 823.9,218.0"/>
+<circle class="s2 gap" cx="175.4" cy="95.2" r="4.5"/>
+<text class="tl" x="183.4" y="99.2" text-anchor="start" >31.2 kW</text>
+<text class="tl" x="586.7" y="265.0" text-anchor="start" >preserveCharge, battery −9.3 kW</text>
+<line class="s3l" x1="64" y1="368" x2="78" y2="368" stroke-width="2"/>
+<text class="t2" x="82.0" y="372.0" text-anchor="start" >grid, as published (gridTotalKw)</text>
+<line class="s2l" x1="314" y1="368" x2="328" y2="368" stroke-width="2"/>
+<text class="t2" x="332.0" y="372.0" text-anchor="start" >grid incl. batteryKw = load − solar + BESS + EV</text>
+<text class="ax" x="74.1" y="356.0" text-anchor="middle" >09:00</text>
+<text class="ax" x="155.2" y="356.0" text-anchor="middle" >11:00</text>
+<text class="ax" x="236.2" y="356.0" text-anchor="middle" >13:00</text>
+<text class="ax" x="317.3" y="356.0" text-anchor="middle" >15:00</text>
+<text class="ax" x="398.3" y="356.0" text-anchor="middle" >17:00</text>
+<text class="ax" x="479.4" y="356.0" text-anchor="middle" >19:00</text>
+<text class="ax" x="560.4" y="356.0" text-anchor="middle" >21:00</text>
+<text class="ax" x="641.5" y="356.0" text-anchor="middle" >23:00</text>
+<text class="ax" x="722.6" y="356.0" text-anchor="middle" >01:00</text>
+<text class="ax" x="803.6" y="356.0" text-anchor="middle" >03:00</text>
+</svg>

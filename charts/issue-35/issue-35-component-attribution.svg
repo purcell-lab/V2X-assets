@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" width="860" height="420" role="img" aria-labelledby="t d">
+<title id="t">E · Grid-sourced EV energy is booked as home-to-vehicle, V2G as V2H</title><desc id="d">For five intervals, bars of EV energy from or to the grid per the plan's grid figure, beside the g2v and v2g components the plan publishes, which are zero.</desc>
+
+<style>
+  .bg{fill:#fcfcfb}
+  .t1{fill:#0b0b0b;font:600 15px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .t2{fill:#52514e;font:12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .tl{fill:#0b0b0b;font:600 12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .ax{fill:#52514e;font:11px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .grid{stroke:#e4e3df;stroke-width:1}
+  .zero{stroke:#8f8e88;stroke-width:1}
+  .s1{fill:#2a78d6}.s1l{stroke:#2a78d6}
+  .s2{fill:#eb6834}.s2l{stroke:#eb6834}
+  .s3{fill:#1baf7a}.s3l{stroke:#1baf7a}
+  .crit{fill:#d03b3b}.critl{stroke:#d03b3b}
+  .shade{fill:#f0efec}
+  .gap{stroke:#fcfcfb;stroke-width:2}
+  .muted{fill:#8f8e88}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19}
+    .t1,.tl{fill:#f0efec}
+    .t2,.ax{fill:#c3c2b7}
+    .grid{stroke:#383835}
+    .zero{stroke:#76756f}
+    .s1{fill:#3987e5}.s1l{stroke:#3987e5}
+    .s2{fill:#d95926}.s2l{stroke:#d95926}
+    .s3{fill:#199e70}.s3l{stroke:#199e70}
+    .shade{fill:#2a2a28}
+    .gap{stroke:#1a1a19}
+    .muted{fill:#76756f}
+  }
+</style>
+<rect class="bg" width="860" height="420" rx="6"/>
+<text class="t1" x="20" y="28">E · Grid-sourced EV energy is booked as home-to-vehicle, V2G as V2H</text>
+<text class="t2" x="20" y="47">09:06 plan · EV energy per interval split by where the plan's own grid figure says it came from or went to</text>
+<line class="grid" x1="64" y1="309.2" x2="834" y2="309.2"/>
+<text class="ax" x="58.0" y="313.2" text-anchor="end" >-10</text>
+<line class="grid" x1="64" y1="257.1" x2="834" y2="257.1"/>
+<text class="ax" x="58.0" y="261.1" text-anchor="end" >-5</text>
+<line class="zero" x1="64" y1="205.0" x2="834" y2="205.0"/>
+<text class="ax" x="58.0" y="209.0" text-anchor="end" >0</text>
+<line class="grid" x1="64" y1="152.9" x2="834" y2="152.9"/>
+<text class="ax" x="58.0" y="156.9" text-anchor="end" >5</text>
+<line class="grid" x1="64" y1="100.8" x2="834" y2="100.8"/>
+<text class="ax" x="58.0" y="104.8" text-anchor="end" >10</text>
+<text class="ax" x="58.0" y="72.0" text-anchor="end" >kWh</text>
+<rect class="s3" x="94.8" y="165.0" width="43.1" height="40.0" rx="2.0"/>
+<rect class="s1" x="144.1" y="175.2" width="43.1" height="29.8" rx="2.0"/>
+<text class="tl" x="116.4" y="159.0" text-anchor="middle" >+3.8</text>
+<text class="ax" x="141.0" y="346.0" text-anchor="middle" >11:00</text>
+<text class="t2" x="141.0" y="362.0" text-anchor="middle" >booked g2v 0</text>
+<rect class="s3" x="248.8" y="130.4" width="43.1" height="74.6" rx="2.0"/>
+<rect class="s1" x="298.1" y="170.2" width="43.1" height="34.8" rx="2.0"/>
+<text class="tl" x="270.4" y="124.4" text-anchor="middle" >+7.2</text>
+<text class="ax" x="295.0" y="346.0" text-anchor="middle" >11:30</text>
+<text class="t2" x="295.0" y="362.0" text-anchor="middle" >booked g2v 0</text>
+<rect class="s3" x="402.8" y="205.0" width="43.1" height="101.2" rx="2.0"/>
+<rect class="s1" x="452.1" y="205.0" width="43.1" height="13.8" rx="2.0"/>
+<text class="tl" x="424.4" y="322.2" text-anchor="middle" >-9.7</text>
+<text class="ax" x="449.0" y="346.0" text-anchor="middle" >17:30</text>
+<text class="t2" x="449.0" y="362.0" text-anchor="middle" >booked v2g 0</text>
+<rect class="s3" x="556.8" y="205.0" width="43.1" height="100.8" rx="2.0"/>
+<rect class="s1" x="606.1" y="205.0" width="43.1" height="14.2" rx="2.0"/>
+<text class="tl" x="578.4" y="321.8" text-anchor="middle" >-9.7</text>
+<text class="ax" x="603.0" y="346.0" text-anchor="middle" >18:00</text>
+<text class="t2" x="603.0" y="362.0" text-anchor="middle" >booked v2g 0</text>
+<rect class="s3" x="710.8" y="205.0" width="43.1" height="99.7" rx="2.0"/>
+<rect class="s1" x="760.1" y="205.0" width="43.1" height="15.3" rx="2.0"/>
+<text class="tl" x="732.4" y="320.7" text-anchor="middle" >-9.6</text>
+<text class="ax" x="757.0" y="346.0" text-anchor="middle" >18:30</text>
+<text class="t2" x="757.0" y="362.0" text-anchor="middle" >booked v2g 0</text>
+<rect class="s3" x="64" y="395" width="12" height="10" rx="2"/>
+<text class="t2" x="82.0" y="404.0" text-anchor="start" >EV energy from / to the grid, per the plan's grid figure</text>
+<rect class="s1" x="482" y="395" width="12" height="10" rx="2"/>
+<text class="t2" x="500.0" y="404.0" text-anchor="start" >EV energy from / to the home</text>
+</svg>

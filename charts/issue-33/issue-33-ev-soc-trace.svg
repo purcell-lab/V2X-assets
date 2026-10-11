@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 380" width="860" height="380" role="img" aria-labelledby="t d">
+<title id="t">C · EV SoC trace sized on the 40.3 kWh home battery, ending at 0 %</title><desc id="d">The plan's estimatedSoC trace per interval against the 20% EV target; the slope in the V2G intervals is 0.371 kWh per percent, the home battery at 0.92.</desc>
+
+<style>
+  .bg{fill:#fcfcfb}
+  .t1{fill:#0b0b0b;font:600 15px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .t2{fill:#52514e;font:12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .tl{fill:#0b0b0b;font:600 12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .ax{fill:#52514e;font:11px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .grid{stroke:#e4e3df;stroke-width:1}
+  .zero{stroke:#8f8e88;stroke-width:1}
+  .s1{fill:#2a78d6}.s1l{stroke:#2a78d6}
+  .s2{fill:#eb6834}.s2l{stroke:#eb6834}
+  .s3{fill:#1baf7a}.s3l{stroke:#1baf7a}
+  .crit{fill:#d03b3b}.critl{stroke:#d03b3b}
+  .shade{fill:#f0efec}
+  .gap{stroke:#fcfcfb;stroke-width:2}
+  .muted{fill:#8f8e88}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19}
+    .t1,.tl{fill:#f0efec}
+    .t2,.ax{fill:#c3c2b7}
+    .grid{stroke:#383835}
+    .zero{stroke:#76756f}
+    .s1{fill:#3987e5}.s1l{stroke:#3987e5}
+    .s2{fill:#d95926}.s2l{stroke:#d95926}
+    .s3{fill:#199e70}.s3l{stroke:#199e70}
+    .shade{fill:#2a2a28}
+    .gap{stroke:#1a1a19}
+    .muted{fill:#76756f}
+  }
+</style>
+<rect class="bg" width="860" height="380" rx="6"/>
+<text class="t1" x="20" y="28">C · EV SoC trace sized on the 40.3 kWh home battery, ending at 0 %</text>
+<text class="t2" x="20" y="47">Amber V2X plan published 12 Oct 2026 09:06 AEST · 30-min intervals, AEST start · positive = charge / import</text>
+<line class="zero" x1="64" y1="320.0" x2="834" y2="320.0"/>
+<text class="ax" x="58.0" y="324.0" text-anchor="end" >0</text>
+<line class="grid" x1="64" y1="272.0" x2="834" y2="272.0"/>
+<text class="ax" x="58.0" y="276.0" text-anchor="end" >20</text>
+<line class="grid" x1="64" y1="224.0" x2="834" y2="224.0"/>
+<text class="ax" x="58.0" y="228.0" text-anchor="end" >40</text>
+<line class="grid" x1="64" y1="176.0" x2="834" y2="176.0"/>
+<text class="ax" x="58.0" y="180.0" text-anchor="end" >60</text>
+<line class="grid" x1="64" y1="128.0" x2="834" y2="128.0"/>
+<text class="ax" x="58.0" y="132.0" text-anchor="end" >80</text>
+<line class="grid" x1="64" y1="80.0" x2="834" y2="80.0"/>
+<text class="ax" x="58.0" y="84.0" text-anchor="end" >100</text>
+<text class="ax" x="58.0" y="72.0" text-anchor="end" >%</text>
+<line class="critl" x1="64" y1="272.0" x2="834" y2="272.0" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text class="tl" x="830.0" y="267.0" text-anchor="end" >EV target 20 % (target_soc)</text>
+<polyline class="s1l" fill="none" stroke-width="2" stroke-linejoin="round" points="74.1,252.8 94.4,248.7 114.7,246.2 134.9,227.8 155.2,191.1 175.4,133.5 195.7,117.6 216.0,108.5 236.2,104.2 256.5,96.4 276.8,85.8 297.0,80.0 317.3,80.0 337.6,80.0 357.8,80.0 378.1,80.6 398.3,82.9 418.6,154.4 438.9,225.8 459.1,297.3 479.4,302.2 499.7,307.3 519.9,311.2 540.2,317.6 560.4,317.6 580.7,317.6 601.0,317.6 621.2,317.6 641.5,317.6 661.8,317.6 682.0,317.6 702.3,317.6 722.6,317.6 742.8,317.6 763.1,317.6 783.3,317.6 803.6,317.6 823.9,320.0"/>
+<circle class="s1 gap" cx="418.6" cy="154.4" r="4.5"/>
+<circle class="s1 gap" cx="438.9" cy="225.8" r="4.5"/>
+<circle class="s1 gap" cx="459.1" cy="297.3" r="4.5"/>
+<text class="tl" x="448.9" y="225.8" text-anchor="start" >−11.04 kWh → −29.8 pp each = 0.371 kWh/% (home battery)</text>
+<text class="tl" x="546.2" y="309.6" text-anchor="start" >1.02 % from 20:30, 0 % at 03:30</text>
+<line class="s1l" x1="64" y1="348" x2="78" y2="348" stroke-width="2"/>
+<text class="t2" x="82.0" y="352.0" text-anchor="start" >estimatedSoC (EV trace)</text>
+<line class="critl" x1="251" y1="348" x2="265" y2="348" stroke-width="2" stroke-dasharray="4 3"/>
+<text class="t2" x="269.0" y="352.0" text-anchor="start" >target</text>
+<text class="ax" x="74.1" y="336.0" text-anchor="middle" >09:00</text>
+<text class="ax" x="155.2" y="336.0" text-anchor="middle" >11:00</text>
+<text class="ax" x="236.2" y="336.0" text-anchor="middle" >13:00</text>
+<text class="ax" x="317.3" y="336.0" text-anchor="middle" >15:00</text>
+<text class="ax" x="398.3" y="336.0" text-anchor="middle" >17:00</text>
+<text class="ax" x="479.4" y="336.0" text-anchor="middle" >19:00</text>
+<text class="ax" x="560.4" y="336.0" text-anchor="middle" >21:00</text>
+<text class="ax" x="641.5" y="336.0" text-anchor="middle" >23:00</text>
+<text class="ax" x="722.6" y="336.0" text-anchor="middle" >01:00</text>
+<text class="ax" x="803.6" y="336.0" text-anchor="middle" >03:00</text>
+</svg>
