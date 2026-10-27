@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 360" width="860" height="360" role="img" aria-labelledby="t d">
+<title id="t">E · Grid-side EV energy still booked as home-side: 63.8 kWh of g2v/v2g booked as 1.43 kWh</title><desc id="d">Grouped bars for the six EV dispatch intervals: grid-implied EV energy versus booked g2v or v2g.</desc>
+
+<style>
+  .bg{fill:#fcfcfb}
+  .t1{fill:#0b0b0b;font:600 15px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .t2{fill:#52514e;font:12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .tl{fill:#0b0b0b;font:600 12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .ax{fill:#52514e;font:11px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .grid{stroke:#e4e3df;stroke-width:1}
+  .zero{stroke:#8f8e88;stroke-width:1}
+  .s1{fill:#2a78d6}.s1l{stroke:#2a78d6}
+  .s2{fill:#eb6834}.s2l{stroke:#eb6834}
+  .s3{fill:#1baf7a}.s3l{stroke:#1baf7a}
+  .crit{fill:#d03b3b}.critl{stroke:#d03b3b}
+  .shade{fill:#f0efec}
+  .gap{stroke:#fcfcfb;stroke-width:2}
+  .muted{fill:#8f8e88}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19}
+    .t1,.tl{fill:#f0efec}
+    .t2,.ax{fill:#c3c2b7}
+    .grid{stroke:#383835}
+    .zero{stroke:#76756f}
+    .s1{fill:#3987e5}.s1l{stroke:#3987e5}
+    .s2{fill:#d95926}.s2l{stroke:#d95926}
+    .s3{fill:#199e70}.s3l{stroke:#199e70}
+    .shade{fill:#2a2a28}
+    .gap{stroke:#1a1a19}
+    .muted{fill:#76756f}
+  }
+</style>
+<rect class="bg" width="860" height="360" rx="6"/>
+<text class="t1" x="20" y="28">E · Grid-side EV energy still booked as home-side: 63.8 kWh of g2v/v2g booked as 1.43 kWh</text>
+<text class="t2" x="20" y="47">Amber V2X plan published 27 Oct 2026 13:21:07 AEST · 50 intervals, 13:00 27 Oct to 14:00 28 Oct AEST</text>
+<line class="zero" x1="64" y1="294.0" x2="834" y2="294.0"/>
+<text class="ax" x="58.0" y="298.0" text-anchor="end" >0</text>
+<line class="grid" x1="64" y1="234.0" x2="834" y2="234.0"/>
+<text class="ax" x="58.0" y="238.0" text-anchor="end" >4</text>
+<line class="grid" x1="64" y1="174.0" x2="834" y2="174.0"/>
+<text class="ax" x="58.0" y="178.0" text-anchor="end" >8</text>
+<line class="grid" x1="64" y1="114.0" x2="834" y2="114.0"/>
+<text class="ax" x="58.0" y="118.0" text-anchor="end" >12</text>
+<text class="ax" x="58.0" y="76.0" text-anchor="end" >kWh</text>
+<rect class="s3" x="87.1" y="207.0" width="38.5" height="87.0" rx="2.0"/>
+<rect class="crit" x="130.7" y="285.5" width="38.5" height="8.5" rx="2.0"/>
+<text class="ax" x="106.4" y="203.0" text-anchor="middle" >5.8</text>
+<text class="ax" x="150.0" y="281.5" text-anchor="middle" >0.57</text>
+<rect class="s3" x="215.4" y="121.5" width="38.5" height="172.5" rx="2.0"/>
+<rect class="crit" x="259.1" y="281.1" width="38.5" height="12.9" rx="2.0"/>
+<text class="ax" x="234.7" y="117.5" text-anchor="middle" >11.5</text>
+<text class="ax" x="278.3" y="277.1" text-anchor="middle" >0.86</text>
+<rect class="s3" x="343.8" y="122.3" width="38.5" height="171.7" rx="2.0"/>
+<rect class="crit" x="387.4" y="293.1" width="38.5" height="0.9" rx="0.4"/>
+<text class="ax" x="363.0" y="118.3" text-anchor="middle" >11.4</text>
+<text class="ax" x="406.7" y="290.0" text-anchor="middle" >0.00</text>
+<rect class="s3" x="472.1" y="116.9" width="38.5" height="177.1" rx="2.0"/>
+<rect class="crit" x="515.7" y="293.1" width="38.5" height="0.9" rx="0.4"/>
+<text class="ax" x="491.4" y="112.9" text-anchor="middle" >11.8</text>
+<text class="ax" x="535.0" y="290.0" text-anchor="middle" >0.00</text>
+<rect class="s3" x="600.4" y="119.1" width="38.5" height="174.9" rx="2.0"/>
+<rect class="crit" x="644.1" y="293.1" width="38.5" height="0.9" rx="0.4"/>
+<text class="ax" x="619.7" y="115.1" text-anchor="middle" >11.7</text>
+<text class="ax" x="663.3" y="290.0" text-anchor="middle" >0.00</text>
+<rect class="s3" x="728.8" y="120.2" width="38.5" height="173.8" rx="2.0"/>
+<rect class="crit" x="772.4" y="293.1" width="38.5" height="0.9" rx="0.4"/>
+<text class="ax" x="748.0" y="116.2" text-anchor="middle" >11.6</text>
+<text class="ax" x="791.7" y="290.0" text-anchor="middle" >0.00</text>
+<text class="ax" x="128.2" y="310.0" text-anchor="middle" >27 17:00 v2g</text>
+<text class="ax" x="256.5" y="310.0" text-anchor="middle" >27 17:30 v2g</text>
+<text class="ax" x="384.8" y="310.0" text-anchor="middle" >27 18:00 v2g</text>
+<text class="ax" x="513.2" y="310.0" text-anchor="middle" >28 09:00 g2v</text>
+<text class="ax" x="641.5" y="310.0" text-anchor="middle" >28 09:30 g2v</text>
+<text class="ax" x="769.8" y="310.0" text-anchor="middle" >28 10:00 g2v</text>
+<rect class="s3" x="64" y="329" width="12" height="10" rx="2"/>
+<text class="t2" x="82.0" y="338.0" text-anchor="start" >grid-side EV energy implied by the plan's own grid figure</text>
+<rect class="crit" x="489" y="329" width="12" height="10" rx="2"/>
+<text class="t2" x="507.0" y="338.0" text-anchor="start" >booked g2v / v2g</text>
+</svg>

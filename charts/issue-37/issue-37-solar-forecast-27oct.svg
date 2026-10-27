@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" width="860" height="400" role="img" aria-labelledby="t d">
+<title id="t">G · Plan solar forecast is 23 % of Solcast: 18.9 kWh planned vs 81.1 kWh forecast</title><desc id="d">Bars of plan solar_kw per interval beside the Solcast estimate and measured PV.</desc>
+
+<style>
+  .bg{fill:#fcfcfb}
+  .t1{fill:#0b0b0b;font:600 15px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .t2{fill:#52514e;font:12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .tl{fill:#0b0b0b;font:600 12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .ax{fill:#52514e;font:11px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .grid{stroke:#e4e3df;stroke-width:1}
+  .zero{stroke:#8f8e88;stroke-width:1}
+  .s1{fill:#2a78d6}.s1l{stroke:#2a78d6}
+  .s2{fill:#eb6834}.s2l{stroke:#eb6834}
+  .s3{fill:#1baf7a}.s3l{stroke:#1baf7a}
+  .crit{fill:#d03b3b}.critl{stroke:#d03b3b}
+  .shade{fill:#f0efec}
+  .gap{stroke:#fcfcfb;stroke-width:2}
+  .muted{fill:#8f8e88}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19}
+    .t1,.tl{fill:#f0efec}
+    .t2,.ax{fill:#c3c2b7}
+    .grid{stroke:#383835}
+    .zero{stroke:#76756f}
+    .s1{fill:#3987e5}.s1l{stroke:#3987e5}
+    .s2{fill:#d95926}.s2l{stroke:#d95926}
+    .s3{fill:#199e70}.s3l{stroke:#199e70}
+    .shade{fill:#2a2a28}
+    .gap{stroke:#1a1a19}
+    .muted{fill:#76756f}
+  }
+</style>
+<rect class="bg" width="860" height="400" rx="6"/>
+<text class="t1" x="20" y="28">G · Plan solar forecast is 23 % of Solcast: 18.9 kWh planned vs 81.1 kWh forecast</text>
+<text class="t2" x="20" y="47">Amber V2X plan published 27 Oct 2026 13:21:07 AEST · 50 intervals, 13:00 27 Oct to 14:00 28 Oct AEST · solar per 30-min interval</text>
+<line class="zero" x1="64" y1="324.0" x2="834" y2="324.0"/>
+<text class="ax" x="58.0" y="328.0" text-anchor="end" >0</text>
+<line class="grid" x1="64" y1="257.3" x2="834" y2="257.3"/>
+<text class="ax" x="58.0" y="261.3" text-anchor="end" >5</text>
+<line class="grid" x1="64" y1="190.7" x2="834" y2="190.7"/>
+<text class="ax" x="58.0" y="194.7" text-anchor="end" >10</text>
+<line class="grid" x1="64" y1="124.0" x2="834" y2="124.0"/>
+<text class="ax" x="58.0" y="128.0" text-anchor="end" >15</text>
+<text class="ax" x="58.0" y="76.0" text-anchor="end" >kW</text>
+<rect class="s2" x="68.5" y="119.2" width="8.5" height="204.8" rx="2.0"/>
+<rect class="muted" x="77.5" y="156.7" width="8.5" height="167.3" rx="2.0"/>
+<rect class="s2" x="95.1" y="293.2" width="8.5" height="30.8" rx="2.0"/>
+<rect class="muted" x="104.1" y="156.3" width="8.5" height="167.7" rx="2.0"/>
+<rect class="s2" x="121.6" y="296.5" width="8.5" height="27.5" rx="2.0"/>
+<rect class="muted" x="130.6" y="174.0" width="8.5" height="150.0" rx="2.0"/>
+<rect class="s2" x="148.2" y="299.9" width="8.5" height="24.1" rx="2.0"/>
+<rect class="muted" x="157.2" y="198.9" width="8.5" height="125.1" rx="2.0"/>
+<rect class="s2" x="174.7" y="303.2" width="8.5" height="20.8" rx="2.0"/>
+<rect class="muted" x="183.7" y="233.6" width="8.5" height="90.4" rx="2.0"/>
+<rect class="s2" x="201.3" y="307.6" width="8.5" height="16.4" rx="2.0"/>
+<rect class="muted" x="210.3" y="256.4" width="8.5" height="67.6" rx="2.0"/>
+<rect class="s2" x="227.8" y="311.7" width="8.5" height="12.3" rx="2.0"/>
+<rect class="muted" x="236.9" y="271.1" width="8.5" height="52.9" rx="2.0"/>
+<rect class="s2" x="254.4" y="315.6" width="8.5" height="8.4" rx="2.0"/>
+<rect class="muted" x="263.4" y="294.7" width="8.5" height="29.3" rx="2.0"/>
+<rect class="s2" x="280.9" y="319.6" width="8.5" height="4.4" rx="2.0"/>
+<rect class="muted" x="290.0" y="316.9" width="8.5" height="7.1" rx="2.0"/>
+<rect class="s2" x="307.5" y="322.3" width="8.5" height="1.7" rx="0.9"/>
+<rect class="muted" x="316.5" y="322.8" width="8.5" height="1.2" rx="0.6"/>
+<rect class="muted" x="369.6" y="323.1" width="8.5" height="0.9" rx="0.4"/>
+<rect class="s2" x="387.1" y="323.3" width="8.5" height="0.7" rx="0.3"/>
+<rect class="muted" x="396.2" y="319.0" width="8.5" height="5.0" rx="2.0"/>
+<rect class="s2" x="413.7" y="320.5" width="8.5" height="3.5" rx="1.7"/>
+<rect class="muted" x="422.7" y="300.1" width="8.5" height="23.9" rx="2.0"/>
+<rect class="s2" x="440.2" y="316.9" width="8.5" height="7.1" rx="2.0"/>
+<rect class="muted" x="449.3" y="283.4" width="8.5" height="40.6" rx="2.0"/>
+<rect class="s2" x="466.8" y="313.1" width="8.5" height="10.9" rx="2.0"/>
+<rect class="muted" x="475.8" y="271.6" width="8.5" height="52.4" rx="2.0"/>
+<rect class="s2" x="493.3" y="308.3" width="8.5" height="15.7" rx="2.0"/>
+<rect class="muted" x="502.4" y="243.0" width="8.5" height="81.0" rx="2.0"/>
+<rect class="s2" x="519.9" y="303.7" width="8.5" height="20.3" rx="2.0"/>
+<rect class="muted" x="528.9" y="236.7" width="8.5" height="87.3" rx="2.0"/>
+<rect class="s2" x="546.4" y="298.9" width="8.5" height="25.1" rx="2.0"/>
+<rect class="muted" x="555.5" y="217.0" width="8.5" height="107.0" rx="2.0"/>
+<rect class="s2" x="573.0" y="294.9" width="8.5" height="29.1" rx="2.0"/>
+<rect class="muted" x="582.0" y="206.5" width="8.5" height="117.5" rx="2.0"/>
+<rect class="s2" x="599.5" y="292.9" width="8.5" height="31.1" rx="2.0"/>
+<rect class="muted" x="608.6" y="208.0" width="8.5" height="116.0" rx="2.0"/>
+<rect class="s2" x="626.1" y="290.5" width="8.5" height="33.5" rx="2.0"/>
+<rect class="muted" x="635.1" y="196.7" width="8.5" height="127.3" rx="2.0"/>
+<rect class="s2" x="652.7" y="288.9" width="8.5" height="35.1" rx="2.0"/>
+<rect class="muted" x="661.7" y="203.6" width="8.5" height="120.4" rx="2.0"/>
+<rect class="s2" x="679.2" y="288.1" width="8.5" height="35.9" rx="2.0"/>
+<rect class="muted" x="688.2" y="210.4" width="8.5" height="113.6" rx="2.0"/>
+<rect class="s2" x="705.8" y="286.9" width="8.5" height="37.1" rx="2.0"/>
+<rect class="muted" x="714.8" y="214.6" width="8.5" height="109.4" rx="2.0"/>
+<rect class="s2" x="732.3" y="287.5" width="8.5" height="36.5" rx="2.0"/>
+<rect class="muted" x="741.3" y="217.9" width="8.5" height="106.1" rx="2.0"/>
+<rect class="s2" x="758.9" y="289.2" width="8.5" height="34.8" rx="2.0"/>
+<rect class="muted" x="767.9" y="222.7" width="8.5" height="101.3" rx="2.0"/>
+<rect class="muted" x="794.4" y="234.4" width="8.5" height="89.6" rx="2.0"/>
+<rect class="muted" x="821.0" y="252.4" width="8.5" height="71.6" rx="2.0"/>
+<circle class="s3 gap" cx="77.3" cy="159.1" r="4.5"/>
+<text class="ax" x="77.3" y="340.0" text-anchor="middle" >27 13:00</text>
+<text class="ax" x="156.9" y="340.0" text-anchor="middle" >27 14:30</text>
+<text class="ax" x="236.6" y="340.0" text-anchor="middle" >27 16:00</text>
+<text class="ax" x="316.2" y="340.0" text-anchor="middle" >27 17:30</text>
+<text class="ax" x="395.9" y="340.0" text-anchor="middle" >28 05:30</text>
+<text class="ax" x="475.6" y="340.0" text-anchor="middle" >28 07:00</text>
+<text class="ax" x="555.2" y="340.0" text-anchor="middle" >28 08:30</text>
+<text class="ax" x="634.9" y="340.0" text-anchor="middle" >28 10:00</text>
+<text class="ax" x="714.5" y="340.0" text-anchor="middle" >28 11:30</text>
+<text class="ax" x="794.2" y="340.0" text-anchor="middle" >28 13:00</text>
+<text class="tl" x="784.2" y="318.0" text-anchor="end" >plan 0.0 →</text>
+<rect class="s2" x="64" y="359" width="12" height="10" rx="2"/>
+<text class="t2" x="82.0" y="368.0" text-anchor="start" >plan solar_kw</text>
+<rect class="muted" x="181" y="359" width="12" height="10" rx="2"/>
+<text class="t2" x="199.0" y="368.0" text-anchor="start" >Solcast pv_estimate</text>
+<rect class="s3" x="340" y="359" width="12" height="10" rx="2"/>
+<text class="t2" x="358.0" y="368.0" text-anchor="start" >measured PV, 13:00–13:25 mean</text>
+</svg>

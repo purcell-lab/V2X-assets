@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" width="860" height="300" role="img" aria-labelledby="t d">
+<title id="t">F · The cost analysis still picks discharge; the plan still selects self-consume</title><desc id="d">Horizontal bars: discharge −26.33 c is the winner, selfConsume +18.47 c is selected.</desc>
+
+<style>
+  .bg{fill:#fcfcfb}
+  .t1{fill:#0b0b0b;font:600 15px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .t2{fill:#52514e;font:12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .tl{fill:#0b0b0b;font:600 12px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .ax{fill:#52514e;font:11px system-ui,-apple-system,'Segoe UI',sans-serif}
+  .grid{stroke:#e4e3df;stroke-width:1}
+  .zero{stroke:#8f8e88;stroke-width:1}
+  .s1{fill:#2a78d6}.s1l{stroke:#2a78d6}
+  .s2{fill:#eb6834}.s2l{stroke:#eb6834}
+  .s3{fill:#1baf7a}.s3l{stroke:#1baf7a}
+  .crit{fill:#d03b3b}.critl{stroke:#d03b3b}
+  .shade{fill:#f0efec}
+  .gap{stroke:#fcfcfb;stroke-width:2}
+  .muted{fill:#8f8e88}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19}
+    .t1,.tl{fill:#f0efec}
+    .t2,.ax{fill:#c3c2b7}
+    .grid{stroke:#383835}
+    .zero{stroke:#76756f}
+    .s1{fill:#3987e5}.s1l{stroke:#3987e5}
+    .s2{fill:#d95926}.s2l{stroke:#d95926}
+    .s3{fill:#199e70}.s3l{stroke:#199e70}
+    .shade{fill:#2a2a28}
+    .gap{stroke:#1a1a19}
+    .muted{fill:#76756f}
+  }
+</style>
+<rect class="bg" width="860" height="300" rx="6"/>
+<text class="t1" x="20" y="28">F · The cost analysis still picks discharge; the plan still selects self-consume</text>
+<text class="t2" x="20" y="47">Plan 27 Oct 2026 13:21:07 AEST, current interval 13:00 · marginal cost in cents · lower is better · gridNoEV −14.28 kW, import 12.91 c, export 8.73 c</text>
+<line class="grid" x1="170.0" y1="74" x2="170.0" y2="248"/>
+<text class="ax" x="170.0" y="264.0" text-anchor="middle" >-30 c</text>
+<line class="grid" x1="282.0" y1="74" x2="282.0" y2="248"/>
+<text class="ax" x="282.0" y="264.0" text-anchor="middle" >-15 c</text>
+<line class="zero" x1="394.0" y1="74" x2="394.0" y2="248"/>
+<text class="ax" x="394.0" y="264.0" text-anchor="middle" >0 c</text>
+<line class="grid" x1="506.0" y1="74" x2="506.0" y2="248"/>
+<text class="ax" x="506.0" y="264.0" text-anchor="middle" >15 c</text>
+<line class="grid" x1="618.0" y1="74" x2="618.0" y2="248"/>
+<text class="ax" x="618.0" y="264.0" text-anchor="middle" >30 c</text>
+<line class="grid" x1="730.0" y1="74" x2="730.0" y2="248"/>
+<text class="ax" x="730.0" y="264.0" text-anchor="middle" >45 c</text>
+<rect class="s3" x="197.4" y="80.0" width="196.6" height="24" rx="3"/>
+<text class="tl" x="160.0" y="96.0" text-anchor="end" >discharge</text>
+<text class="tl" x="400.0" y="96.0" text-anchor="start" >-26.33 c  ← costAnalysis winner</text>
+<text class="tl" x="160.0" y="138.0" text-anchor="end" >preserve</text>
+<text class="tl" x="400.0" y="138.0" text-anchor="start" >+0.00 c</text>
+<rect class="s1" x="394.0" y="164.0" width="137.9" height="24" rx="3"/>
+<text class="tl" x="160.0" y="180.0" text-anchor="end" >selfConsume</text>
+<text class="tl" x="537.9" y="180.0" text-anchor="start" >+18.47 c  ← selectedAction</text>
+<rect class="muted" x="394.0" y="206.0" width="290.8" height="24" rx="3"/>
+<text class="tl" x="160.0" y="222.0" text-anchor="end" >charge</text>
+<text class="tl" x="690.8" y="222.0" text-anchor="start" >+38.94 c</text>
+</svg>
