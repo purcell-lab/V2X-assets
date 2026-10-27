@@ -151,5 +151,5 @@
 <text class="ax" x="743.4" y="610.0" text-anchor="middle" >18:20</text>
 <line class="grid" x1="800.0" y1="594" x2="800.0" y2="598"/>
 <text class="ax" x="800.0" y="610.0" text-anchor="middle" >18:30</text>
-<text class="t2" x="64.0" y="628.0" text-anchor="start" >Export 12.9 kWh vs 28.8 kWh planned · during export: BESS 7.5 kWh, EV 3.0 kWh (BESS-first) · EV→BESS 2.3 kWh</text>
+<text class="t2" x="64.0" y="628.0" text-anchor="start" >Export 12.9 kWh vs 28.8 kWh planned · with the export limit at 35: BESS 10.9 kWh, EV 3.9 kWh (BESS-first, 74 %) · EV→BESS 2.3 kWh</text>
 </svg>
